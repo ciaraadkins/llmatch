@@ -1,5 +1,5 @@
 # Final version of the Streamlit app with hardcoded leaderboard data
-!pip install streamlit
+pip install streamlit
 
 import streamlit as st
 import pandas as pd
