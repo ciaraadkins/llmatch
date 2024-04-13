@@ -1,27 +1,28 @@
+# Final version of the Streamlit app with hardcoded leaderboard data
 import streamlit as st
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 
-# Function to authenticate and fetch data from Google Sheets
-def fetch_sheet_data():
-    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name('path_to_credentials.json', scope)
-    client = gspread.authorize(creds)
-    sheet = client.open("YourSpreadsheetName").sheet1
-    data = sheet.get_all_records()
-    return pd.DataFrame(data)
+# Sample data for the leaderboard
+def create_sample_leaderboard():
+    data = {
+        "Name": ["Model A", "Model B", "Model C", "Model D"],
+        "Score": [88.5, 92.7, 85.3, 90.1],
+        "Rank": [3, 1, 4, 2]
+    }
+    df = pd.DataFrame(data)
+    return df
 
 # Main app
 def main():
     st.title("LLMatch.ai")
     st.subheader("A Customizable LLM Leaderboard")
     
-    # Fetch data
-    df = fetch_sheet_data()
+    # Create sample data
+    df = create_sample_leaderboard()
     
     # Display data
     st.table(df)
 
+# Uncomment the following line when you run this script
 if __name__ == "__main__":
     main()
