@@ -23,11 +23,11 @@ The methodology involves the following steps:
    - Compute a composite score for each model by multiplying the normalized MMLU score and the inverted normalized distance.
    - Rank the models based on their composite scores in descending order.
 
-For a detailed explanation of the mathematical framework and methodology, please refer to the [LLMatch Algorithm 2.0 Methodology document](link-to-methodology-document).
+For a detailed explanation of the mathematical framework and methodology, please refer to the [LLMatch Algorithm 2.0 Methodology document](https://github.com/ciaraadkins/llmatch/blob/main/LLMatch_Methodology.pdf).
 
 ## Proof of Concept
 
-A proof-of-concept implementation of the LLMatch Algorithm 2.0 is available in the [LLMatch POC Jupyter Notebook](link-to-notebook). The notebook demonstrates how to:
+A proof-of-concept implementation of the LLMatch Algorithm 2.0 is available in the [LLMatch POC Jupyter Notebook](https://github.com/ciaraadkins/llmatch/blob/main/LLMatch_POC_2_0.ipynb). The notebook demonstrates how to:
 
 1. Load and preprocess the language model data
 2. Collect user preferences
@@ -40,7 +40,7 @@ A proof-of-concept implementation of the LLMatch Algorithm 2.0 is available in t
 To use the LLMatch Algorithm 2.0 proof of concept:
 
 1. Clone this repository
-2. Open the [LLMatch POC Jupyter Notebook](link-to-notebook) in Google Colab or Jupyter Notebook
+2. Open the [LLMatch POC Jupyter Notebook]([link-to-notebook](https://github.com/ciaraadkins/llmatch/blob/main/LLMatch_POC_2_0.ipynb)) in Google Colab or Jupyter Notebook
 3. Follow the instructions in the notebook to input your preferences and run the algorithm
 4. View the top recommended language models based on your preferences
 
@@ -50,8 +50,8 @@ Contributions to the LLMatch Algorithm 2.0 project are welcome! If you find any 
 
 ## License
 
-This project is licensed under the [MIT License](link-to-license-file).
+This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
 ## Contact
 
-For any questions or inquiries, please contact [Ciara Adkins](mailto:your-email@example.com).
+For any questions or inquiries, please contact [Ciara Adkins](mailto:adkins.ciara@gmail.com).
