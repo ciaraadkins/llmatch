@@ -1,0 +1,39 @@
+name,type,parameters,param_b,param_inferred,cutoff_date,freshness,creator,context_window,mmlu,humaneval,inf_price,price_inferred,throughput,latency
+GPT-4,commercial,"1,760,000,000,000","1,760.00",FALSE,9/30/2021,943,OpenAI,"8,000",86.40,88.40,37.50,FALSE,22.30,0.58
+GPT-4 Turbo,commercial,"1,402,000,000,000","1,402.00",TRUE,12/1/2023,151,OpenAI,"128,000",86.40,85.40,15.00,FALSE,18.60,0.56
+GPT-3.5 Turbo,commercial,"175,000,000,000",175.00,FALSE,9/30/2021,943,OpenAI,"16,000",70.00,73.20,0.75,FALSE,48.70,0.35
+Llama 3 (70B),open-source,"70,000,000,000",70.00,FALSE,3/31/2023,396,OpenAI,"8,000",82.00,81.70,0.90,FALSE,47.30,0.35
+Llama 3 (8B),open-source,"8,000,000,000",8.00,FALSE,12/31/2023,121,Meta,"8,000",68.40,#N/A,0.14,FALSE,227.90,0.30
+Llama 2 Chat (13B),open-source,"13,000,000,000",13.00,FALSE,9/30/2022,578,Meta,"4,000",53.60,#N/A,0.25,FALSE,45.20,0.33
+Llama 2 Chat (70B),open-source,"70,000,000,000",70.00,FALSE,7/1/2023,304,Meta,"4,000",68.90,62.20,1.00,FALSE,64.30,0.32
+Llama 2 Chat (7B),open-source,"7,000,000,000",7.00,FALSE,9/30/2022,578,Meta,"4,000",45.30,#N/A,0.20,FALSE,72.20,0.36
+Code Llama (70B),open-source,"70,000,000,000",70.00,FALSE,#N/A,#N/A,Meta,"100,000",#N/A,67.80,0.90,FALSE,29.90,0.32
+Mistral Large,open-source,"1,068,000,000,000","1,068.00",TRUE,#N/A,#N/A,Mistral AI,"33,000",81.20,#N/A,12.00,FALSE,32.00,0.21
+Mistral Medium,open-source,"283,000,000,000",283.00,TRUE,#N/A,#N/A,Mistral AI,"33,000",75.30,#N/A,4.05,FALSE,18.20,0.27
+Mixtral 8x7B,open-source,"7,000,000,000",7.00,FALSE,#N/A,#N/A,Mistral AI,"33,000",70.60,30.50,0.50,FALSE,103.50,0.29
+Mixtral 8x22B,open-source,"22,000,000,000",22.00,FALSE,#N/A,#N/A,Mistral AI,"65,000",77.60,#N/A,1.20,FALSE,60.40,0.27
+Mistral Small,open-source,"196,000,000,000",196.00,TRUE,#N/A,#N/A,Mistral AI,"33,000",72.20,#N/A,3.00,FALSE,79.20,0.24
+Mistral 7B,open-source,"7,000,000,000",7.00,FALSE,#N/A,#N/A,Mistral AI,"33,000",62.50,26.20,0.20,FALSE,106.30,0.24
+Gemini Ultra,commercial,"15,000,000,000,000","15,000.00",FALSE,3/1/2023,426,Google,"8,000",90.00,74.40,104.16,TRUE,#N/A,#N/A
+Gemini 1.5 Pro,commercial,"907,000,000,000",907.00,TRUE,3/1/2023,426,Google,"1,000,000",81.90,71.90,10.50,FALSE,43.90,1.26
+Gemini 1.0 Pro,commercial,"180,000,000,000",180.00,FALSE,3/1/2023,426,Google,"33,000",71.80,63.40,0.75,FALSE,76.90,1.42
+Gemma 7B,commercial,"7,000,000,000",7.00,FALSE,#N/A,#N/A,Google,"8,000",64.30,#N/A,0.15,FALSE,140.10,0.28
+Claude 2.1,commercial,"1,068,000,000,000","1,068.00",TRUE,#N/A,#N/A,Anthropic,"200,000",78.50,71.20,12.00,FALSE,40.80,0.50
+Claude 2.0,commercial,"1,068,000,000,000","1,068.00",TRUE,#N/A,#N/A,Anthropic,"100,000",78.50,71.20,12.00,FALSE,38.00,0.51
+Claude Instant,commercial,"64,000,000,000",64.00,TRUE,#N/A,#N/A,Anthropic,"100,000",73.40,52.80,1.20,FALSE,75.20,0.48
+Claude 3 Opus,commercial,"2,000,000,000,000","2,000.00",FALSE,8/1/2023,273,Anthropic,"200,000",88.20,84.90,30.00,FALSE,27.70,1.42
+Claude 3 Sonnet,commercial,"70,000,000,000",70.00,FALSE,8/1/2023,273,Anthropic,"200,000",81.50,73.00,6.00,FALSE,59.60,0.51
+Claude 3 Haiku,commercial,"20,000,000,000",20.00,FALSE,8/1/2023,273,Anthropic,"200,000",76.70,75.90,0.50,FALSE,105.80,0.42
+OpenELM-270M,open-source,"272,000,000",0.27,FALSE,#N/A,#N/A,Apple,"2,048",25.70,#N/A,0.01,TRUE,#N/A,#N/A
+OpenELM-450M,open-source,"450,000,000",0.45,FALSE,#N/A,#N/A,Apple,"2,048",26.01,#N/A,0.02,TRUE,#N/A,#N/A
+OpenELM-1_1B,open-source,"1,100,000,000",1.10,FALSE,#N/A,#N/A,Apple,"2,048",27.05,#N/A,0.04,TRUE,#N/A,#N/A
+OpenELM-3B,open-source,"3,000,000,000",3.00,FALSE,#N/A,#N/A,Apple,"2,048",26.76,#N/A,0.10,TRUE,#N/A,#N/A
+OpenELM-270M-Instruct,open-source,"270,000,000",0.27,FALSE,#N/A,#N/A,Apple,"2,048",26.70,#N/A,0.01,TRUE,#N/A,#N/A
+OpenELM-450M-Instruct,open-source,"450,000,000",0.45,FALSE,#N/A,#N/A,Apple,"2,048",25.41,#N/A,0.02,TRUE,#N/A,#N/A
+OpenELM-1_1B-Instruct,open-source,"1,100,000,000",1.10,FALSE,#N/A,#N/A,Apple,"2,048",25.65,#N/A,0.04,TRUE,#N/A,#N/A
+OpenELM-3B-Instruct,open-source,"3,000,000,000",3.00,FALSE,#N/A,#N/A,Apple,"2,048",24.80,#N/A,0.10,TRUE,#N/A,#N/A
+Phi-3-mini-4k-instruct-gguf,open-source,"3,800,000,000",3.80,FALSE,10/31/2023,182,Microsoft,"4,000",68.80,58.50,0.12,TRUE,#N/A,#N/A
+Phi-3-mini-128k-instruct-onnx,open-source,"3,800,000,000",3.80,FALSE,10/31/2023,182,Microsoft,"128,000",68.80,58.50,0.12,TRUE,#N/A,#N/A
+Phi-3-mini-4k-instruct-onnx,open-source,"3,800,000,000",3.80,FALSE,10/31/2023,182,Microsoft,"4,000",68.80,58.50,0.12,TRUE,#N/A,#N/A
+Phi-3-mini-128k-instruct,open-source,"3,800,000,000",3.80,FALSE,10/31/2023,182,Microsoft,"128,000",68.80,58.50,0.12,TRUE,#N/A,#N/A
+Phi-3-mini-4k-instruct,open-source,"3,800,000,000",3.80,FALSE,10/31/2023,182,Microsoft,"4,000",68.80,58.50,0.12,TRUE,#N/A,#N/A
